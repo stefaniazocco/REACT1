@@ -1,8 +1,6 @@
-const hello = "Hello World!"
+const hello = <h1>Hello World!</h1>
 
 export default function App() {
-  return (
-    <h1>{hello}</h1>
-  );
+  return (hello);
 }
 
